@@ -1,6 +1,6 @@
 ---
-title: Heading
-subtitle: Sub heading
+title: Welcome
+subtitle: 'Fellowship like the early church '
 image: /img/logoheader.jpg
 blurb:
   heading: Why Kaldi?
