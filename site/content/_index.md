@@ -1,6 +1,6 @@
 ---
-title: The Home Church
-subtitle: Support sustainable farming while enjoying a cup
+title: Heading
+subtitle: Sub heading
 image: /img/logoheader.jpg
 blurb:
   heading: Why Kaldi?
