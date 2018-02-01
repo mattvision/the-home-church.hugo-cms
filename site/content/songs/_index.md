@@ -1,6 +1,6 @@
 ---
-title: Our Coffee
-type: products
+title: Songs
+type: songs
 image: /img/products-jumbotron.jpg
 heading: What we offer
 description: >-
