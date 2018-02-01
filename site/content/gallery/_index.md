@@ -28,6 +28,8 @@ intro:
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
   heading: Recent snaps
-  description: Please use the image slider below to view more pictures.
+  description: >-
+    Welcome to our photo spot. Please use the image slider below to view more
+    pictures. We hope to see your picture here too!
 ---
 
