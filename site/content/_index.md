@@ -1,7 +1,7 @@
 ---
 image: /img/logoheader.jpg
 intro:
-  heading: Welcome
+  heading: Welcome!
   text: >
     [Luke 14:13]: https://biblehub.com/niv/luke/14-13.htm "But when you give a
     banquet, invite the poor, the crippled, the lame, the blind,"
@@ -173,17 +173,18 @@ intro:
 
 
     We are a group of Christians seeking to fellowship according to the pattern
-    set by the early church, which met in their homes (<cite class="nowrap">[Rom
+    set by the early church, meeting in our homes (<cite class="nowrap">[Rom
     16:5]</cite>; <cite class="nowrap">[1 Cor 16:19]</cite>; <cite
     class="nowrap">[Col 4:15]</cite>; <cite class="nowrap">[Phm 1:2]</cite>;
     <cite class="nowrap">[2 Thess 2:15]</cite>; <cite class="nowrap">[1 Cor
-    11:2]</cite>) and encouraged everyone to participate (<cite
+    11:2]</cite>) and encouraging everyone to participate (<cite
     class="nowrap">[1 Cor 14:26]</cite>; <cite class="nowrap">[Eph 5:19]</cite>;
     <cite class="nowrap">[Col 3:16]</cite>).
 
 
-    We meet at various locations around Gladstone, Calliope and Tannum Sands,
-    and our Sunday meetings typically include:
+    We meet at various locations around Gladstone, Calliope and <span
+    class="nowrap">Tannum Sands</span>, and our Sunday meetings typically
+    include:
 
 
     <div class="list-circle list-fix_indent"></div>
@@ -262,8 +263,9 @@ intro:
     perfection.
 
 
-    We look forward to meeting you! For more information, please [contact one of
-    our pastors](/contact):
+    We look forward to meeting you! For more information on our Sunday meetings,
+    weekly Bible studies, youth group, church camps and other activities, please
+    [contact one of our pastors](/contact):
 
 
     * Steve Müller [0488 101 777](tel:+61488101777) -
