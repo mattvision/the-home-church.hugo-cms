@@ -6,7 +6,7 @@
       <div style="text-align: center !important;" class="mw7 relative mb3">
 <!--        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary"> -->
         {{ if .title }}
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6">
+        <h1 id="header-heading" class="f2 f1-l b di lh-title mb3 white mw6" style="display: none;">
           {{.title}}
         </h1>
 	{{ end }}
@@ -23,3 +23,14 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        //jQuery("#logotop").css("visibility", "visible");
+        //jQuery("#logotop-img").css("display", "none");
+	setTimeout(function(){
+    	    jQuery("#header-heading").fadeIn(1000);
+	
+	}, 2000);
+    });
+</script>

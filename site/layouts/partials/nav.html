@@ -1,12 +1,12 @@
 <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
 
 	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.png" style="min-width: 150px;" alt="The Home Church logo" class="br0 db mb0 w-100"/>
+	<a id="logotop" href="/" class="pa3 db mr4 h-100 w3 flex-none" style="visibility: hidden; min-height: 130px;">
+		<img id="logotop-img" src="/img/logo.png" style="min-width: 150px;" alt="The Home Church logo" class="br0 db mb0 w-100" style="display: none;"/>
 	</a>
 
 	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
+	<ul id="navbar" class="flex b grey-3" style="display: none;">
 		<li><a href="/gallery" class="pa3 no-underline db">Gallery</a></li>
 
 		<li><a href="/songs" class="pa3 no-underline db">Songs</a></li>
@@ -17,3 +17,14 @@
 	</ul>
 
 </nav>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery("#logotop").css("visibility", "visible");
+        jQuery("#logotop-img").css("display", "none");
+	setTimeout(function(){
+            jQuery("#logotop-img").fadeIn(1500);
+            jQuery("#navbar").fadeIn(1500);
+    }, 1000);
+    });
+</script>
