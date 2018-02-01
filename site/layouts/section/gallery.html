@@ -12,9 +12,9 @@
     <p>{{ .description }}</p>
   </div>
 </div>
+{{ end }}
 
 <!-- Image grid -->
-{{ partial "image-grid" . }}
-{{ end }}
+{{ partial "unite-gallery" .Params.intro }}
 
 {{ end }}
