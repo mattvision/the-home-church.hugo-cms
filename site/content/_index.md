@@ -2,32 +2,71 @@
 image: /img/logoheader.jpg
 intro:
   heading: Welcome
-  text: >-
-    We are a group of Christians seeking to fellowship according to the pattern set by the early church, which met in their homes (Rom 16:5; 1 Cor 16:19; Col 4:15; Phm 2; 2 Thess 2:15; 1 Cor 11:2) and encouraged everyone to participate (1 Cor 14:26; Eph 5:19; Col 3:16).
+  text: |
+    [Luke 14:13]: //biblehub.com/niv/luke/14-13.htm "But when you give a banquet, invite the poor, the crippled, the lame, the blind,"
+    [Luke 14:21]: # "“The servant came back and reported this to his master. Then the owner of the house became angry and ordered his servant, ‘Go out quickly into the streets and alleys of the town and bring in the poor, the crippled, the blind and the lame.’"
+    [Luke 14:23]: # "“Then the master told his servant, ‘Go out to the roads and country lanes and compel them to come in, so that my house will be full."
+    [Acts 15:22]: # "Then the apostles and elders, with the whole church, decided to choose some of their own men and send them to Antioch with Paul and Barnabas. They chose Judas (called Barsabbas) and Silas, men who were leaders among the believers."
+    [Acts 20:7]: # "On the first day of the week we came together to break bread. Paul spoke to the people and, because he intended to leave the next day, kept on talking until midnight."
+    [Rom 16:5]: # "Greet also the church that meets at their house."
+    [Heb 13:17]: # "Have confidence in your leaders and submit to their authority, because they keep watch over you as those who must give an account. Do this so that their work will be a joy, not a burden, for that would be of no benefit to you."
+    [Phm 2]: # "also to Apphia our sister and Archippus our fellow soldier—and to the church that meets in your home:"
+    [1 Thess 5:12–13]: # "Now we ask you, brothers and sisters, to acknowledge those who work hard among you, who care for you in the Lord and who admonish you. Hold them in the highest regard in love because of their work. Live in peace with each other."
+    [2 Thess 2:15]: https://biblehub.com/niv/2_thessalonians/2.htm "So then, brothers and sisters, stand firm and hold fast to the teachings we passed on to you, whether by word of mouth or by letter."
+    [1 Cor 11:2]: # "I praise you for remembering me in everything and for holding to the traditions just as I passed them on to you."
+    [1 Cor 11:17–33]: # "In the following directives I have no praise for you, for your meetings do more harm than good. In the first place, I hear that when you come together as a church, there are divisions among you, and to some extent I believe it. No doubt there have to be differences among you to show which of you have God’s approval. So then, when you come together, it is not the Lord’s Supper you eat, for when you are eating, some of you go ahead with your own private suppers. As a result, one person remains hungry and another gets drunk. Don’t you have homes to eat and drink in? Or do you despise the church of God by humiliating those who have nothing? What shall I say to you? Shall I praise you? Certainly not in this matter! For I received from the Lord what I also passed on to you: The Lord Jesus, on the night he was betrayed, took bread, and when he had given thanks, he broke it and said, “This is my body, which is for you; do this in remembrance of me.” In the same way, after supper he took the cup, saying, “This cup is the new covenant in my blood; do this, whenever you drink it, in remembrance of me.” For whenever you eat this bread and drink this cup, you proclaim the Lord’s death until he comes. So then, whoever eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty of sinning against the body and blood of the Lord. Everyone ought to examine themselves before they eat of the bread and drink from the cup. For those who eat and drink without discerning the body of Christ eat and drink judgment on themselves. That is why many among you are weak and sick, and a number of you have fallen asleep. But if we were more discerning with regard to ourselves, we would not come under such judgment. Nevertheless, when we are judged in this way by the Lord, we are being disciplined so that we will not be finally condemned with the world. So then, my brothers and sisters, when you gather to eat, you should all eat together."
+    [1 Cor 12 to 14]: #
+    [1 Cor 14:22–25]: # "Tongues, then, are a sign, not for believers but for unbelievers; prophecy, however, is not for unbelievers but for believers. 23 So if the whole church comes together and everyone speaks in tongues, and inquirers or unbelievers come in, will they not say that you are out of your mind? 24 But if an unbeliever or an inquirer comes in while everyone is prophesying, they are convicted of sin and are brought under judgment by all, 25 as the secrets of their hearts are laid bare. So they will fall down and worship God, exclaiming, “God is really among you!”"
+    [1 Cor 14:15]: # "So what shall I do? I will pray with my spirit, but I will also pray with my understanding; I will sing with my spirit, but I will also sing with my understanding."
+    [1 Cor 14:26]: # "What then shall we say, brothers and sisters? When you come together, each of you has a hymn, or a word of instruction, a revelation, a tongue or an interpretation. Everything must be done so that the church may be built up."
+    [1 Cor 14:26–35]: # "What then shall we say, brothers and sisters? When you come together, each of you has a hymn, or a word of instruction, a revelation, a tongue or an interpretation. Everything must be done so that the church may be built up. If anyone speaks in a tongue, two—or at the most three—should speak, one at a time, and someone must interpret. If there is no interpreter, the speaker should keep quiet in the church and speak to himself and to God. Two or three prophets should speak, and the others should weigh carefully what is said. And if a revelation comes to someone who is sitting down, the first speaker should stop. For you can all prophesy in turn so that everyone may be instructed and encouraged. The spirits of prophets are subject to the control of prophets. For God is not a God of disorder but of peace—as in all the congregations of the Lord’s people. Women should remain silent in the churches. They are not allowed to speak, but must be in submission, as the law says. If they want to inquire about something, they should ask their own husbands at home; for it is disgraceful for a woman to speak in the church."
+    [1 Cor 16:19]: # "The churches in the province of Asia send you greetings. Aquila and Priscilla greet you warmly in the Lord, and so does the church that meets at their house."
+    [Eph 1:22–23]: # "And God placed all things under his feet and appointed him to be head over everything for the church, which is his body, the fullness of him who fills everything in every way."
+    [Eph 5:19]: # "speaking to one another with psalms, hymns, and songs from the Spirit. Sing and make music from your heart to the Lord,"
+    [Col 3:16]: # "Let the message of Christ dwell among you richly as you teach and admonish one another with all wisdom through psalms, hymns, and songs from the Spirit, singing to God with gratitude in your hearts."
+    [Col 4:2–4]: # "Devote yourselves to prayer, being watchful and thankful. And pray for us, too, that God may open a door for our message, so that we may proclaim the mystery of Christ, for which I am in chains. Pray that I may proclaim it clearly, as I should."
+    [Col 4:5–6]: # "Be wise in the way you act toward outsiders; make the most of every opportunity. Let your conversation be always full of grace, seasoned with salt, so that you may know how to answer everyone."
+    [Col 4:15]: # "Give my greetings to the brothers and sisters at Laodicea, and to Nympha and the church in her house."
+    [1 Tim 4:13]: # "Until I come, devote yourself to the public reading of Scripture, to preaching and to teaching."
+    [2 Tim 2:2]: # "And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others."
+    [James 3:1]: # "Not many of you should become teachers, my fellow believers, because you know that we who teach will be judged more strictly."
+    [1 Pet 3:15–16]: # "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect, keeping a clear conscience, so that those who speak maliciously against your good behavior in Christ may be ashamed of their slander."
+
+
+    We are a group of Christians seeking to fellowship according to the pattern set by the early church, which met in their homes <em>(<cite class="nowrap">[Rom 16:5]</cite>; <cite class="nowrap">[1 Cor 16:19]</cite>; <cite class="nowrap">[Col 4:15]</cite>; <cite class="nowrap">[Phm 2]</cite>; <cite class="nowrap">[2 Thess 2:15]</cite>; <cite class="nowrap">[1 Cor 11:2]</cite>)</em> and encouraged everyone to participate <em>(<cite class="nowrap">[1 Cor 14:26]</cite>; <cite class="nowrap">[Eph 5:19]</cite>; <cite class="nowrap">[Col 3:16]</cite>)</em>.
 
     We meet at various locations around Gladstone, Calliope and Tannum Sands, and our Sunday meetings typically include:
-    +Encouraging one another in song, Scripture & testimonies (1 Cor 14:26; Eph 5:19; Col 3:16; 1 Tim 4:13).
-    +Breaking up into small groups for prayer & encouragement (1 Cor 14:15, 26; Col 4:2–4).
-    +Bible teaching led by gifted men (1 Cor 14:26–35; 2 Tim 2:2; James 3:1).
-    +A monthly celebration of the Lord’s Supper as a full meal (1 Cor 11:17–33; Acts 20:7).
 
-    We believe that Jesus is the head of the church, which is his body (Eph 1:22–23). Major church decisions are prayerfully made under the headship of Christ by elder-led congregational consensus (Acts 15:22; 1 Thess 5:12–13; Heb 13:17). As a body, we encourage one another according to our spiritual gifts (1 Cor 12 to14), promoting genuine relationships and a family atmosphere with parents and children worshiping together.
+    <div class="list-circle list-fix_indent"></div>
 
-    The early church was also burdened for those who do not yet know Jesus (1 Cor 14:22–25), and so we are encouraged to be evangelistic in every area of life, impacting our community and culture for Christ (Col 4:5–6; 1 Pet 3:15–16; Luke 14:13, 21, 23).
+    * Encouraging one another in song, Scripture & testimonies.<br><em><cite class="nowrap">[1 Cor 14:26]</cite>; <cite class="nowrap">[Eph 5:19]</cite>; <cite class="nowrap">[Col 3:16]</cite>; <cite class="nowrap">[1 Tim 4:13]</cite>.</em>
+    * Breaking up into small groups for prayer & encouragement.<br><em><cite class="nowrap">[1 Cor 14:15]</cite>; <cite class="nowrap">[1 Cor 14:26]</cite>; <cite class="nowrap">[Col 4:2–4]</cite>.</em>
+    * Bible teaching led by gifted men.<br><em><cite class="nowrap">[1 Cor 14:26–35]</cite>; <cite class="nowrap">[2 Tim 2:2]</cite>; <cite class="nowrap">[James 3:1]</cite>.</em>
+    * A monthly celebration of the Lord’s Supper as a full meal.<br><em><cite class="nowrap">[1 Cor 11:17–33]</cite>; <cite class="nowrap">[Acts 20:7]</cite>.</em>
+
+    We believe that Jesus is the head of the church, which is his body <em>(<cite class="nowrap">[Eph 1:22–23]</cite>)</em>. Major church decisions are prayerfully made under the headship of Christ by elder-led congregational consensus <em>(<cite class="nowrap">[Acts 15:22]</cite>; <cite class="nowrap">[1 Thess 5:12–13]</cite>; <cite class="nowrap">[Heb 13:17]</cite>)</em>. As a body, we encourage one another according to our spiritual gifts <em>(<cite class="nowrap">[1 Cor 12 to 14]</cite>)</em>, promoting genuine relationships and a family atmosphere with parents and children worshiping together.
+
+    The early church was also burdened for those who do not yet know Jesus <em>(<cite class="nowrap">[1 Cor 14:22–25]</cite>)</em>, and so we are encouraged to be evangelistic in every area of life, impacting our community and culture for Christ <em>(<cite class="nowrap">[Col 4:5–6]</cite>; <cite class="nowrap">[1 Pet 3:15–16]</cite>; <cite class="nowrap">[Luke 14:13]</cite>; <cite class="nowrap">[Luke 14:21]</cite>; <cite class="nowrap">[Luke 14:23]</cite>)</em>.
 
     In essentials there is to be unity, in nonessentials liberty, and in all things love. With regard to the essentials, all of us who participate in and contribute to our church meetings firmly uphold and bind ourselves to the following core truths of the Christian faith:
-    +The Bible is the Word of God and without error.
-    +There is one God, eternally existing as the Father, Son, and Holy Spirit.
-    +God is good and created a perfect world.
-    +Adam’s sin brought death and suffering and separation from God.
-    +Jesus is fully God and fully man, born of the virgin Mary, and without sin.
-    +Jesus died on a cross to pay the penalty for our sins and conquered death through his resurrection.
-    +We must repent and turn to God and take up our own cross daily to be a disciple of Jesus.
-    +We are saved by God’s grace through faith in Jesus, not by our good deeds.
-    +Jesus will one day return to judge the world and establish his Messianic kingdom.
-    +There will be a new heavens and a new earth, restored to their original perfection.
 
-    We look forward to meeting you! For more information, please contact one of our pastors:
-    Steve Müller    0488 101 777    steve@thehomechurch.com.au 
-    Jaco Louw    0431 756 414    jaco@thehomechurch.com.au
+    <div class="list-decimal list-fix_indent"></div>
+
+    1. The Bible is the Word of God and without error.
+    2. There is one God, eternally existing as the Father, Son, and Holy Spirit.
+    3. God is good and created a perfect world.
+    4. Adam’s sin brought death and suffering and separation from God.
+    5. Jesus is fully God and fully man, born of the virgin Mary, and without sin.
+    6. Jesus died on a cross to pay the penalty for our sins and conquered death through his resurrection.
+    7. We must repent and turn to God and take up our own cross daily to be a disciple of Jesus.
+    8. We are saved by God’s grace through faith in Jesus, not by our good deeds.
+    9. Jesus will one day return to judge the world and establish his Messianic kingdom.
+    10. There will be a new heavens and a new earth, restored to their original perfection.
+
+    We look forward to meeting you! For more information, please [contact one of our pastors](/contact):
+
+    * Steve Müller [0488 101 777](tel:+61488101777) - [steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)
+    * Jaco Louw [0431 756 414](tel:+61431756414) - [jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)
+
+
 ---

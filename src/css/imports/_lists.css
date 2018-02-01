@@ -1,1 +1,17 @@
-.list { list-style-type: none; }
+/* .list { list-style-type: none; } */
+
+.list-lower_roman+ol, .list-lower_roman+ul {list-style-type: lower-roman !important;}
+.list-upper_roman+ol, .list-upper_roman+ul {list-style-type: upper-roman !important;}
+.list-lower_alpha+ol, .list-lower_alpha+ul {list-style-type: lower-alpha !important;}
+.list-upper_alpha+ol, .list-upper_alpha+ul {list-style-type: upper-alpha !important;}
+.list-lower_greek+ol, .list-lower_greek+ul {list-style-type: lower-greek !important;}
+.list-lower_latin+ol, .list-lower_latin+ul {list-style-type: lower-latin !important;}
+.list-upper_latin+ol, .list-upper_latin+ul {list-style-type: upper-latin !important;}
+.list-none+ol, .list-none+ul {list-style-type:none !important;}
+.list-disc+ol, .list-disc+ul {list-style-type:disc !important;}
+.list-circle+ol, .list-circle+ul {list-style-type:circle !important;}
+.list-square+ol, .list-square+ul {list-style-type:square !important;}
+.list-decimal+ol, .list-decimal+ul {list-style-type:decimal !important;}
+.list-decimal_leading_zero+ol, .list-decimal_leading_zero+ul {list-style-type:decimal-leading-zero !important;}
+
+.list-fix_indent+ol, .list-fix_indent+ul {margin-left: 40px; padding-bottom: 40px;}
