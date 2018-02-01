@@ -1,7 +1,6 @@
 ---
-title: Gallery
-type: gallery
-image: /img/products-jumbotron.jpg
+title: Photo Gallery
+image: /img/IMG_1673.JPG
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -98,5 +97,4 @@ pricing:
       plan: Custom
       price: '?'
 ---
-
 
