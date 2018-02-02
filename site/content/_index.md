@@ -270,10 +270,10 @@ intro:
     [contact one of our pastors](/contact):
 
 
-    * Steve Müller<span>&nbsp;&nbsp;</span>[0488 101
-    777](tel:+61488101777)<span>&nbsp;&nbsp;</span>[steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)
+    * Steve Müller<span>&nbsp;&nbsp;</span><span class="nowrap">[0488 101
+    777](tel:+61488101777)</span><span>&nbsp;&nbsp;</span>[steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)
 
-    * Jaco Louw<span>&nbsp;&nbsp;</span>[0431 756
-    414](tel:+61431756414)<span>&nbsp;&nbsp;</span>[jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)
+    * Jaco Louw<span>&nbsp;&nbsp;</span><span class="nowrap">[0431 756
+    414](tel:+61431756414)</span><span>&nbsp;&nbsp;</span>[jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)
 ---
 

@@ -2,55 +2,56 @@
 <!--<div class="mw7 center ph3">-->
 
 <!--<div style="width: 100%; height: 100%; text-align: center;">-->
-<img id="egg-top" style="position: fixed; z-index: 10; max-height: 200px; top: 400px; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);" src="/img/logo-white.png" alt="The Home Church logo">
+<img id="egg-top" style="position: fixed; z-index: 10; max-width: 50%; max-height: 200px; top: -500px; left: 50%; margin-right: -50%; transform: translate(-50%, 120%);" src="/img/logo-white.png" alt="The Home Church logo">
 <!--</div>-->
 
-<div class="slider">
+<div id="header-slide" class="slider">
   <img src="{{ .image1 }}" alt="First image">
   <img src="{{ .image2 }}" alt="Second image">
   <img src="{{ .image3 }}" alt="Third image">
   <img src="{{ .image4 }}" alt="Third image">
 </div>
 
-
 <!--</div>-->
 <!--</div>-->
 </div>
 
 <script type="text/javascript">
-$('.slider').sss({
-slideShow : true, // Set to false to prevent SSS from automatically animating.
-startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
-transition : 400, // Length (in milliseconds) of the fade transition.
-speed : 3500, // Slideshow speed in milliseconds.
-showNav : true // Set to false to hide navigation arrows.
-});
+    $('.slider').sss({
+	slideShow : true, // Set to false to prevent SSS from automatically animating.
+	startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+	transition : 400, // Length (in milliseconds) of the fade transition.
+	speed : 3500, // Slideshow speed in milliseconds.
+	showNav : true // Set to false to hide navigation arrows.
+    });
 
     var eggsTop = true;
-      var pctScrolled = 0;
-      function amountscrolled(){
-          var winheight = $(window).height()
-          var docheight = $(document).height()
-          var scrollTop = $(window).scrollTop()
-          var trackLength = docheight - winheight
+    function amountscrolled(){
+	var headerTop = $("#header-slide").offset().top;
+	var headerHeight = $("#header-slide").height();
+	var headerBottom = Math.floor(headerTop + headerHeight);
+	var headerPos = Math.floor(headerTop - $(document).scrollTop());
 
-          pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 NaN if tracklength == 0)
+	var eggTop = $("#egg-top").offset().top;
+	var eggHeight = $("#egg-top").height();
+	var eggBottom = Math.floor(eggTop + eggHeight);
+	
+	var eggFade = Math.floor((2*(eggHeight / 4)) +eggTop); // 2/4 egg height
+	var fadePos = Math.floor(headerBottom - eggFade);
 
-          if(pctScrolled > 10){
+	if(fadePos > 0){
+            if(!eggsTop && headerPos > 0){
+              eggsTop = true;
+              eggsTopFadeIn();
+            }
+	} else {
             if(eggsTop){
               eggsTop = false;
               eggsTopFadeOut();
             }
-          } else {
+	}
 
-            if(!eggsTop){
-              eggsTop = true;
-              eggsTopFadeIn();
-            }
-          }
-
-          console.log(pctScrolled + '% scrolled')
-      }
+    }
 
     function eggsTopFadeOut(){
 	$("#egg-top").fadeOut();
@@ -66,5 +67,11 @@ showNav : true // Set to false to hide navigation arrows.
     $(window).on("scroll", function(){
           amountscrolled()
       });
+
+    $(document).ready(function(){
+	var headerTop = $("#header-slide").offset().top;
+	$("#egg-top").css("top", headerTop+"px");
+	
+    });
 
 </script>
