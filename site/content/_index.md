@@ -1,5 +1,5 @@
 ---
-image: /img/logoheader.jpg
+image: /img/IMG_1413.JPG
 intro:
   heading: Welcome!
   text: >
