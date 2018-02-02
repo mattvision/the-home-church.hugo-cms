@@ -1,6 +1,70 @@
+<!--<div class="pv5 pv6-l ph3 bg-center cover">-->
+<!--<div class="mw7 center ph3">-->
+
+<!--<div style="width: 100%; height: 100%; text-align: center;">-->
+<img id="egg-top" style="position: fixed; z-index: 10; max-height: 200px; top: 400px; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);" src="/img/logo-white.png" alt="The Home Church logo">
+<!--</div>-->
+
 <div class="slider">
   <img src="{{ .image1 }}" alt="First image">
   <img src="{{ .image2 }}" alt="Second image">
   <img src="{{ .image3 }}" alt="Third image">
   <img src="{{ .image4 }}" alt="Third image">
 </div>
+
+
+<!--</div>-->
+<!--</div>-->
+</div>
+
+<script type="text/javascript">
+$('.slider').sss({
+slideShow : true, // Set to false to prevent SSS from automatically animating.
+startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+transition : 400, // Length (in milliseconds) of the fade transition.
+speed : 3500, // Slideshow speed in milliseconds.
+showNav : true // Set to false to hide navigation arrows.
+});
+
+    var eggsTop = true;
+      var pctScrolled = 0;
+      function amountscrolled(){
+          var winheight = $(window).height()
+          var docheight = $(document).height()
+          var scrollTop = $(window).scrollTop()
+          var trackLength = docheight - winheight
+
+          pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 NaN if tracklength == 0)
+
+          if(pctScrolled > 10){
+            if(eggsTop){
+              eggsTop = false;
+              eggsTopFadeOut();
+            }
+          } else {
+
+            if(!eggsTop){
+              eggsTop = true;
+              eggsTopFadeIn();
+            }
+          }
+
+          console.log(pctScrolled + '% scrolled')
+      }
+
+    function eggsTopFadeOut(){
+	$("#egg-top").fadeOut();
+	console.log('fade out');
+    }
+
+    function eggsTopFadeIn(){
+	$("#egg-top").fadeIn();
+
+	console.log('fade in');
+    }
+
+    $(window).on("scroll", function(){
+          amountscrolled()
+      });
+
+</script>
