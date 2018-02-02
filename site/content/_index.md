@@ -1,5 +1,8 @@
 ---
-image: /img/IMG_1413.JPG
+image1: /img/20229273_10210330901809540_1616235114281631988_n.jpg
+image2: /img/IMG_1383.JPG
+image3: /img/IMG_1413.JPG
+image4: /img/IMG_1416.JPG
 intro:
   heading: Welcome!
   text: >
