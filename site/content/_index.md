@@ -175,8 +175,7 @@ intro:
 
 
 
-    We are a group of Christians seeking to fellowship according to the pattern
-    set by the early church, meeting in our homes (<cite class="nowrap">[Rom
+    We are a group of Christians seeking to fellowship like the early church, meeting in our homes (<cite class="nowrap">[Rom
     16:5]</cite>; <cite class="nowrap">[1 Cor 16:19]</cite>; <cite
     class="nowrap">[Col 4:15]</cite>; <cite class="nowrap">[Phm 1:2]</cite>;
     <cite class="nowrap">[2 Thess 2:15]</cite>; <cite class="nowrap">[1 Cor
@@ -212,13 +211,13 @@ intro:
 
 
     We believe that Jesus is the head of the church, which is his body (<cite
-    class="nowrap">[Eph 1:22–23]</cite>). Major church decisions are prayerfully
-    made under the headship of Christ by elder-led congregational consensus
-    (<cite class="nowrap">[Acts 15:22]</cite>; <cite class="nowrap">[1 Thess
-    5:12–13]</cite>; <cite class="nowrap">[Heb 13:17]</cite>). As a body, we
+    class="nowrap">[Eph 1:22–23]</cite>).  As a body, we
     encourage one another according to our spiritual gifts (<cite
     class="nowrap">[1 Cor 12 to 14]</cite>), promoting genuine relationships and
-    a family atmosphere with parents and children worshiping together.
+    a family atmosphere with parents and children worshiping together.  Major church decisions are prayerfully
+    made under the headship of Christ by elder-led congregational consensus
+    (<cite class="nowrap">[Acts 15:22]</cite>; <cite class="nowrap">[1 Thess
+    5:12–13]</cite>; <cite class="nowrap">[Heb 13:17]</cite>).
 
 
     The early church was also burdened for those who do not yet know Jesus
@@ -267,7 +266,7 @@ intro:
 
 
     We look forward to meeting you! For more information on our Sunday meetings,
-    weekly Bible studies, youth group, church camps and other activities, please
+    mid-week Bible study, youth group, church camps and other activities, please
     [contact one of our pastors](/contact):
 
 
