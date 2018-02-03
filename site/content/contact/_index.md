@@ -1,13 +1,18 @@
 ---
-title: "Contact"
-logo: "/img/logo-nicefill.png"
+title: Contact
+logo: /img/logo-nicefill.png
 contact_entries:
   - heading: Steve Müller
-    text: "[0488 101 777](tel:+61488101777) [steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)"
-    profile: '/img/steve.jpg'
+    profile: /img/steve.jpg
+    text: >-
+      [0488 101 777](tel:+61488101777)
+      [steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)
   - heading: Jaco Louw
-    text: "[0431 756 414](tel:+61431756414) [jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)"
-    profile: '/img/jaco.jpg'
+    profile: /img/jaco.jpg
+    text: >-
+      [0431 756 414](tel:+61431756414)
+      [jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)
 ---
+We meet together Sunday mornings anytime from 10:00am for coffee and morning tea, and usually start with singing and sharing around 10:30am.​
 
-We are curently working on what goes into this part of the website.
+For information on where we’re meeting this week, or if you have any other questions, please feel free to contact one of our pastors:​
