@@ -1,6 +1,6 @@
 ---
 title: Links
-image: /img/youarethelightoftheworld.jpg
+image: /img/lightoftheworld-stretched.jpg
 intro:
   description: 'Here are some of our favourite websites:'
   heading: Recommended Resources
