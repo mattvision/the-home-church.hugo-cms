@@ -1,6 +1,6 @@
 ---
 title: Links
-image: /img/dinosour1.jpg
+image: /img/youarethelightoftheworld.jpg
 intro:
   description: 'Here are some of our favourite websites:'
   heading: Recommended Resources
