@@ -48,6 +48,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+              - label: Profile
+                name: profile
+                widget: image
       - file: "site/content/gallery/_index.md"
         label: "Gallery Page"
         name: "gallery"

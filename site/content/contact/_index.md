@@ -1,19 +1,13 @@
 ---
 title: "Contact"
-logo: "/img/logo.svg"
+logo: "/img/logo-nicefill.png"
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Steve Müller
+    text: "[0488 101 777](tel:+61488101777) [steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)"
+    profile: '/img/steve.jpg'
+  - heading: Jaco Louw
+    text: "[0431 756 414](tel:+61431756414) [jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)"
+    profile: '/img/jaco.jpg'
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+We are curently working on what goes into this part of the website.
