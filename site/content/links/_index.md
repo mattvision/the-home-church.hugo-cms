@@ -1,5 +1,5 @@
 ---
-title: Links
+title: ''
 image: /img/lightoftheworld-stretched.jpg
 intro:
   description: 'Here are some of our favourite websites:'
