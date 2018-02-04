@@ -91,8 +91,9 @@ intro:
     - image: /img/img_2719.jpg
     - image: /img/img_2720.jpg
   description: >-
-    Welcome to our photo spot. Please use the image slider below to view more
-    pictures. We hope to see your picture here too!
+    Welcome to our photo spot. Please use the image slider below to view
+    pictures from our church meetings, camps and other church outings. We hope
+    to see your picture here too!
   heading: Recent snaps
 ---
 
