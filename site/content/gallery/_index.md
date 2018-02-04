@@ -86,6 +86,10 @@ intro:
     - image: /img/27720845_789177287957742_1254192542_n.jpg
     - image: /img/27780954_789177307957740_979785245_n.jpg
     - image: /img/27783494_789177264624411_1136551637_n.jpg
+    - image: /img/img_2715.jpg
+    - image: /img/img_2716.jpg
+    - image: /img/img_2719.jpg
+    - image: /img/img_2720.jpg
   description: >-
     Welcome to our photo spot. Please use the image slider below to view more
     pictures. We hope to see your picture here too!
