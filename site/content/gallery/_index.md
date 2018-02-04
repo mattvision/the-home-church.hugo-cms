@@ -63,6 +63,25 @@ intro:
     - image: /img/IMG_2036.JPG
     - image: /img/IMG_2038.JPG
     - image: /img/IMG_2042.JPG
+    - image: /img/27658446_789177181291086_1466769619_n.jpg
+    - image: /img/27658710_789177147957756_883492659_n.jpg
+    - image: /img/27658682_789177227957748_1721334774_n.jpg
+    - image: /img/27658816_789177437957727_1966983082_n.jpg
+    - image: /img/27661314_789177234624414_1337277219_n.jpg
+    - image: /img/27661399_789177471291057_2060721883_n.jpg
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
+    - {}
   description: >-
     Welcome to our photo spot. Please use the image slider below to view more
     pictures. We hope to see your picture here too!
