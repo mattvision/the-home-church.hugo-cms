@@ -60,7 +60,6 @@ intro:
     - image: /img/IMG_1551.JPG
     - image: /img/IMG_1565.JPG
     - image: /img/IMG_1589.JPG
-    - image: /img/IMG_1589.JPG
     - image: /img/IMG_1598.JPG
     - image: /img/IMG_1624.JPG
     - image: /img/IMG_1632.JPG
