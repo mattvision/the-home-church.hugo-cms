@@ -10,7 +10,6 @@ intro:
     - image: /img/27661314_789177234624414_1337277219_n.jpg
     - image: /img/27661399_789177471291057_2060721883_n.jpg
     - image: /img/27661644_789176987957772_980225802_n.jpg
-    - image: /img/27661644_789176987957772_980225802_n.jpg
     - image: /img/27661662_789177271291077_1413249096_n.jpg
     - image: /img/27661761_789177207957750_2003582907_n.jpg
     - image: /img/27661934_789177081291096_256296219_n.jpg
@@ -31,11 +30,10 @@ intro:
     - image: /img/img_2719.jpg
     - image: /img/img_2720.jpg
     - image: /img/20229273_10210330901809540_1616235114281631988_n.jpg
-    - image: /img/20246459_10210330895689387_8662764955470265056_n.jpg
     - image: /img/23316806_10211059675788434_2938819058921408744_n.jpg
-    - image: /img/25594123_10211378495878737_7647721814199041688_n.jpg
-    - image: /img/IMG_1383.JPG
+    - image: /img/20246459_10210330895689387_8662764955470265056_n.jpg
     - image: /img/IMG_1398.JPG
+    - image: /img/IMG_1383.JPG
     - image: /img/IMG_1406.JPG
     - image: /img/IMG_1413.JPG
     - image: /img/IMG_1415.JPG
@@ -59,8 +57,8 @@ intro:
     - image: /img/IMG_1550.JPG
     - image: /img/IMG_1551.JPG
     - image: /img/IMG_1565.JPG
-    - image: /img/IMG_1589.JPG
     - image: /img/IMG_1598.JPG
+    - image: /img/IMG_1589.JPG
     - image: /img/IMG_1624.JPG
     - image: /img/IMG_1632.JPG
     - image: /img/IMG_1673.JPG
@@ -68,9 +66,9 @@ intro:
     - image: /img/IMG_1710.JPG
     - image: /img/IMG_1713.JPG
     - image: /img/IMG_1715.JPG
+    - image: /img/IMG_1861.JPG
     - image: /img/IMG_1722.jpg
     - image: /img/IMG_1834.JPG
-    - image: /img/IMG_1861.JPG
     - image: /img/IMG_1878.JPG
     - image: /img/IMG_1881.JPG
     - image: /img/IMG_1885.JPG
@@ -82,8 +80,9 @@ intro:
     - image: /img/IMG_2029.JPG
     - image: /img/IMG_2031.JPG
     - image: /img/IMG_2033.JPG
-    - image: /img/IMG_2035.JPG
     - image: /img/IMG_2036.JPG
+    - image: /img/IMG_2035.JPG
+    - image: /img/25594123_10211378495878737_7647721814199041688_n.jpg
     - image: /img/IMG_2038.JPG
     - image: /img/IMG_2042.JPG
   description: >-
