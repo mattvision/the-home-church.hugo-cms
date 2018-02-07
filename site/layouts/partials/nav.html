@@ -19,33 +19,20 @@
 </nav>
 
 <script type="text/javascript">
-    jQuery(document).ready(function(){
-        jQuery("#logotop").css("visibility", "visible");
-        jQuery("#logotop-img").css("display", "none");
+    $(document).ready(function(){
+	$("#logotop").css("visibility", "visible");
+	$("#logotop-img").css("display", "none");
 	setTimeout(function(){
-            jQuery("#logotop-img").fadeIn(1500);
-            jQuery("#navbar").fadeIn(1500);
-    }, 1000);
+            $("#logotop-img").fadeIn(1500);
+            $("#navbar").fadeIn(1500);
+	}, 1000);
     });
 
     // reload page when orientation changes
     if (window.DeviceOrientationEvent) {
 	window.addEventListener('orientationchange', function() {
-		//document.body.style.zoom = 1.0;
-		//var scale = 'scale(1)';
-		//document.body.style.webkitTransform = scale;    // Chrome, Opera, Safari
-		//document.body.style.msTransform = scale;       // IE 9
-		//document.body.style.transform = scale;     // General
-
-		$('meta[name=viewport]').remove();
-		$('head').append('<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">');
-
-		//$('meta[name=viewport]').remove();
-		//$('head').append('<meta name="viewport" content="width=device-width, initial-scale=yes">' );
-
-		//location.reload(); 
+	    $('meta[name=viewport]').remove();
+	    $('head').append('<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">');
 	}, false);
-
-
     }
 </script>
