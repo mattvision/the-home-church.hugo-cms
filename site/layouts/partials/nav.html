@@ -27,4 +27,9 @@
             jQuery("#navbar").fadeIn(1500);
     }, 1000);
     });
+
+    // reload page when orientation changes
+    if (window.DeviceOrientationEvent) {
+	window.addEventListener('orientationchange', function() { location.reload(); }, false);
+    }
 </script>
