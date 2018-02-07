@@ -31,8 +31,8 @@
     // reload page when orientation changes
     if (window.DeviceOrientationEvent) {
 	window.addEventListener('orientationchange', function() {
-		document.body.style.zoom = 1.0;
-		var scale = 'scale(1)';
+		document.body.style.zoom = 2.0;
+		var scale = 'scale(2)';
 		document.body.style.webkitTransform = scale;    // Chrome, Opera, Safari
 		document.body.style.msTransform = scale;       // IE 9
 		document.body.style.transform = scale;     // General
