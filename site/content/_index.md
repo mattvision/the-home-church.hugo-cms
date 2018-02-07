@@ -149,7 +149,7 @@ intro:
     brothers and sisters, stand firm and hold fast to the teachings we passed on
     to you, whether by word of mouth or by letter."
 
-    [1 Tim 4:13]: https://biblehub.com/niv/1_timothy/14-13.htm "Until I come,
+    [1 Tim 4:13]: https://biblehub.com/niv/1_timothy/4-13.htm "Until I come,
     devote yourself to the public reading of Scripture, to preaching and to
     teaching."
 
@@ -175,13 +175,13 @@ intro:
 
 
 
-    We are a group of Christians seeking to fellowship like the early church, meeting in our homes (<cite class="nowrap">[Rom
-    16:5]</cite>; <cite class="nowrap">[1 Cor 16:19]</cite>; <cite
-    class="nowrap">[Col 4:15]</cite>; <cite class="nowrap">[Phm 1:2]</cite>;
-    <cite class="nowrap">[2 Thess 2:15]</cite>; <cite class="nowrap">[1 Cor
-    11:2]</cite>) and encouraging everyone to participate (<cite
-    class="nowrap">[1 Cor 14:26]</cite>; <cite class="nowrap">[Eph 5:19]</cite>;
-    <cite class="nowrap">[Col 3:16]</cite>).
+    We are a group of Christians seeking to fellowship like the early church,
+    meeting in our homes (<cite class="nowrap">[Rom 16:5]</cite>; <cite
+    class="nowrap">[1 Cor 16:19]</cite>; <cite class="nowrap">[Col 4:15]</cite>;
+    <cite class="nowrap">[Phm 1:2]</cite>; <cite class="nowrap">[2 Thess
+    2:15]</cite>; <cite class="nowrap">[1 Cor 11:2]</cite>) and encouraging
+    everyone to participate (<cite class="nowrap">[1 Cor 14:26]</cite>; <cite
+    class="nowrap">[Eph 5:19]</cite>; <cite class="nowrap">[Col 3:16]</cite>).
 
 
     We meet at various locations around Gladstone, Calliope and <span
@@ -211,13 +211,13 @@ intro:
 
 
     We believe that Jesus is the head of the church, which is his body (<cite
-    class="nowrap">[Eph 1:22–23]</cite>).  As a body, we
-    encourage one another according to our spiritual gifts (<cite
-    class="nowrap">[1 Cor 12 to 14]</cite>), promoting genuine relationships and
-    a family atmosphere with parents and children worshiping together.  Major church decisions are prayerfully
-    made under the headship of Christ by elder-led congregational consensus
-    (<cite class="nowrap">[Acts 15:22]</cite>; <cite class="nowrap">[1 Thess
-    5:12–13]</cite>; <cite class="nowrap">[Heb 13:17]</cite>).
+    class="nowrap">[Eph 1:22–23]</cite>).  As a body, we encourage one another
+    according to our spiritual gifts (<cite class="nowrap">[1 Cor 12 to
+    14]</cite>), promoting genuine relationships and a family atmosphere with
+    parents and children worshiping together.  Major church decisions are
+    prayerfully made under the headship of Christ by elder-led congregational
+    consensus (<cite class="nowrap">[Acts 15:22]</cite>; <cite class="nowrap">[1
+    Thess 5:12–13]</cite>; <cite class="nowrap">[Heb 13:17]</cite>).
 
 
     The early church was also burdened for those who do not yet know Jesus
@@ -270,11 +270,13 @@ intro:
     [contact one of our pastors](/contact):
 
 
-    * Steve Müller<br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="nowrap">[0488 101
+    * Steve Müller<br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+    class="nowrap">[0488 101
     777](tel:+61488101777)</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>[steve@thehomechurch.com.au](mailto:steve@thehomechurch.com.au)
 
 
-    * Jaco Louw<br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="nowrap">[0431 756
+    * Jaco Louw<br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+    class="nowrap">[0431 756
     414](tel:+61431756414)</span><br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>[jaco@thehomechurch.com.au](mailto:jaco@thehomechurch.com.au)
 ---
 
