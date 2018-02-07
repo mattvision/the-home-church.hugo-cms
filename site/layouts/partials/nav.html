@@ -36,13 +36,14 @@
 		document.body.style.msTransform =   scale;       // IE 9
 		document.body.style.transform = scale;     // General
 
+	$('meta[name=viewport]').remove();
+	$('head').append('<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">');
+	$('meta[name=viewport]').remove();
+	$('head').append('<meta name="viewport" content="width=device-width, initial-scale=yes">' );
+
 		location.reload(); 
 	}, false);
 
-//	$('meta[name=viewport]').remove();
-//	$('head').append('<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">');
-//	$('meta[name=viewport]').remove();
-//	$('head').append('<meta name="viewport" content="width=device-width, initial-scale=yes">' );
 
     }
 </script>
