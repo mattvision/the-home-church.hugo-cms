@@ -85,3 +85,25 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+/* Retro Page-Visit counter */
+.digit-con{
+    height:3em;
+    overflow:hidden;
+    display:inline-block;
+    margin-left:.5em;
+}
+.digit-con span{
+    background-color:#0CA67F;
+    width:.75em;
+    display:block;
+    text-align:center;
+    font-size:2em;
+    color:#fff;
+    position:relative;
+    top:0;
+}
+.comma{
+    color:#0CA67F;
+    font-size:1.2em;
+}

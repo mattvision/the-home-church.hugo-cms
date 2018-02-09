@@ -1,9 +1,142 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
+
+    <script type="text/javascript" src="/js-cookie/js.cookie.js"></script>
+    <script type="text/javascript" src="/fingerprint2/fingerprint2.min.js"></script>
+    <script type="text/javascript" src="/ua-parser/ua-parser.js"></script>
+
+    <script type="text/javascript">
+	/**
+	 * @function doNotTrack
+	 * @description Checks if use has declared Do Not Track (DNT) in their browser
+	 * Ignores IE10: Read this for further explanation: https://en.wikipedia.org/wiki/Do_Not_Track#Internet_Explorer_10_default_setting_controversy
+	 * @returns {*}
+	 */
+	var doNotTrack = function () {
+	    if (!window.navigator.userAgent.match(/MSIE\s10\.0|trident\/6\.0/i)) {
+	        return window.navigator.doNotTrack || window.navigator.msDoNotTrack;
+	    }
+	};
+
+	var visitorCount = 0;
+	var cookie = true; // assume true, will be changed to false if cookie does not exist.
+	var userAgent;
+	var crawlerBot;
+	var uid;
+	function initVars() {
+	    uid = getCookie('uid');
+	    userAgent = window.navigator.userAgent;
+	    crawlerBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(userAgent);
+	    if (uid) {
+		if (!crawlerBot) doVisitorCount();
+		return;
+	    }
+	    cookie = false;
+	    if(!doNotTrack())
+	    {
+		new Fingerprint2().get(function(result, components){
+		    uid = result;
+		    setCookie('uid',uid);
+		    doVisitorCount();
+		});
+	    } else {
+	        // see http://jsfiddle.net/jcward/7hyaC/3/
+		var lut = []; for (var i=0; i<256; i++) { lut[i] = (i<16?'0':'')+(i).toString(16); }
+	        var d0 = Math.random()*0xffffffff|0;
+	        var d1 = Math.random()*0xffffffff|0;
+	        var d2 = Math.random()*0xffffffff|0;
+	        var d3 = Math.random()*0xffffffff|0;
+	        uid = lut[d0&0xff]+lut[d0>>8&0xff]+lut[d0>>16&0xff]+lut[d0>>24&0xff]+'-'+
+	          lut[d1&0xff]+lut[d1>>8&0xff]+'-'+lut[d1>>16&0x0f|0x40]+lut[d1>>24&0xff]+'-'+
+	          lut[d2&0x3f|0x80]+lut[d2>>8&0xff]+'-'+lut[d2>>16&0xff]+lut[d2>>24&0xff]+
+	          lut[d3&0xff]+lut[d3>>8&0xff]+lut[d3>>16&0xff]+lut[d3>>24&0xff];
+		setCookie('uid',uid);
+		doVisitorCount();
+	    }
+	}
+	initVars();
+
+	function setCookie(name,value)
+	{
+	    console.log('Setting cookie: '+name+' = '+value);
+	    Cookies.set(name, value, { expires: 365 });
+	    if (!getCookie(name)) return false;
+	    return true;
+	}
+
+	function getCookie(name)
+	{
+	    cookie = Cookies.get(name);
+	    if (typeof cookie === 'undefined') return null;
+	    return cookie;
+	}
+
+	function doVisitorCount()
+	{
+	    if (crawlerBot) return false;
+
+	    if (!uid) {
+		console.log('getVisitorCount(): UID not yet set.');
+		return false;
+	    }
+
+	    $.ajax({
+        	url: "https://stats.thehomechurch.com.au/counter.php",
+        	type: "POST",
+        	crossDomain: true,
+        	data: JSON.stringify({'uid':uid}),
+        	dataType: "json",
+        	success: function (response) {
+		    //console.log(response);
+            	    visitorCount = response.count;
+
+		    counter(""+visitorCount);
+
+        	},
+        	error: function (xhr, status) {
+            	    console.log('error getting response from stats server');
+        	}
+    	    });
+
+	}
+
+
+	function counter(number)
+	{
+	    var wrapper = $('.counter-wrapper');
+
+
+	    wrapper.empty();
+	    var numArray = number.split("");
+
+	    for(var i=0; i<numArray.length; i++) { 
+    		numArray[i] = parseInt(numArray[i], 10);
+    		wrapper.append('<span class="digit-con"><span class="digit'+i+'">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></span></span>');
+	    }
+
+	    var increment = $('.digit-con').outerHeight();
+	    var speed = 1000;
+
+	    for(var i=0; i<numArray.length; i++) {
+    		$('.digit'+i).animate({top: -(increment * numArray[i])}, speed);
+	    }
+
+	    $(".digit-con:nth-last-child(3n+4)").after("<span class='comma'>,</a>");
+	}
+
+
+	$(document).ready(function() {
+
+
+	});
+
+
+    </script>
   <body class="sans-serif">
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }} 
   </body>
 </html>
+
