@@ -28,8 +28,9 @@
 	    uid = getCookie('uid');
 	    userAgent = window.navigator.userAgent;
 	    crawlerBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(userAgent);
+	    if (crawlerBot) return;
 	    if (uid) {
-		if (!crawlerBot) doVisitorCount();
+		doVisitorCount();
 		return;
 	    }
 	    cookie = false;
