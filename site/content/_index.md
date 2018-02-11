@@ -266,8 +266,8 @@ intro:
 
 
     We look forward to meeting you! For more information on our Sunday meetings,
-    mid-week Bible study, youth group, church camps and other activities, please
-    [contact one of our pastors](/contact):
+    mid-week Bible study, youth group, church camps and other activities in our
+    home church, please [contact one of our pastors](/contact):
 
 
     * Steve Müller<br><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
