@@ -74,9 +74,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Weblinks, name: links, widget: list, fields: [{label: Image, name: image, widget: image}, {label: About, name: quote, widget: string}, {label: Website, name: website, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
-  - name: "event_info"
-    label: "Event Info"
+  - name: "events_info"
+    label: "Events Info"
     files:
       - file: "site/content/post/_info.md"
+        label: "Event Info"
+        name: "event_info"
       - fields:
           - {label: Info, name: info, widget: markdown}
