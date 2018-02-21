@@ -26,6 +26,7 @@
     });
 
     var eggsTop = true;
+
     function amountscrolled(){
 	var headerTop = $("#header-slide").offset().top;
 	var headerHeight = $("#header-slide").height();
@@ -40,7 +41,7 @@
 	var fadePos = Math.floor(headerBottom - eggFade);
 
 	if(fadePos > 0){
-            if(!eggsTop && headerPos > 0){
+            if(!eggsTop && headerPos > 0 && eggTop < 10){
               eggsTop = true;
               eggsTopFadeIn();
             }
@@ -64,13 +65,14 @@
 	console.log('fade in');
     }
 
-    $(window).on("scroll", function(){
-          amountscrolled()
-      });
 
     $(document).ready(function(){
 	var headerTop = $("#header-slide").offset().top;
 	$("#egg-top").css("top", headerTop+"px");
+
+	$(window).on("scroll", function(){
+              amountscrolled()
+        });
 	
     });
 
