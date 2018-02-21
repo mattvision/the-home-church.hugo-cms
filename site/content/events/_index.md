@@ -1,6 +1,10 @@
 ---
 title: Events
 ---
+[Steve]: mailto:steve@thehomechurch.com.au "
+
+steve@thehomechurch.com.au"
+
 **Regular Meetings**
 
 We meet Sunday mornings 10:00am ([contact Steve](steve) for details of where we’re meeting this Sunday)
