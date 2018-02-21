@@ -1,5 +1,6 @@
 ---
 title: Events
+footnote: '([contact one of our pastors](/contact) for further details)​'
 ---
 
 [Steve]: mailto:steve@thehomechurch.com.au "Send email to: steve@thehomechurch.com.au"
