@@ -1,6 +1,6 @@
 ---
 title: March 12 — 17
-date: 2018-02-21T03:54:30.137Z
+date: 0001-03-12T00:00:00+10:00
 description: "**Prayer Week**:\_Daily prayer meetings Monday thru Saturday with the theme\_“Light the Fire Again”"
 ---
 
