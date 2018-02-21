@@ -1,9 +1,9 @@
 ---
 title: Events
 ---
-[Steve]: mailto:steve@thehomechurch.com.au "
 
-steve@thehomechurch.com.au"
+
+[Jaco]: mailto:jaco@thehomechurch.com.au "Send email to: jaco@thehomechurch.com.au"
 
 **Regular Meetings**
 
