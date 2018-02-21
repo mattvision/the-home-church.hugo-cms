@@ -1,6 +1,6 @@
 ---
 title: March 30 / 31
-date: 2018-02-21T03:58:50.328Z
+date: 0001-03-30T13:00:00+10:00
 description: Combined Churches Prayer Vigil @ Auckland Hill
 ---
 
