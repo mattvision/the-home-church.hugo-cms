@@ -1,6 +1,6 @@
 ---
 title: May 4 — 7
-date: 2018-02-21T03:57:08.956Z
+date: 0001-05-04T00:00:00+10:00
 description: '**Church Camp**: Agnes Water'
 ---
 
