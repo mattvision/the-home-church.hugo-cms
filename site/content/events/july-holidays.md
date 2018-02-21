@@ -1,6 +1,6 @@
 ---
 title: July holidays
-date: 2018-02-21T03:57:40.694Z
+date: 0001-07-01T00:00:00+10:00
 description: '**Day Trips**: Watch this space!'
 ---
 
