@@ -109,7 +109,6 @@
 }
 
 
-
 /* 3d text shadow effect */
 .three-d {
     color: #fff;
@@ -117,4 +116,29 @@
     /*font: 80px 'ChunkFiveRegular';*/
 }
 
+.soft-shadow {
+    text-shadow: 0px 2px 21px rgba(0, 0, 0, 0.68);
+}
+
+.overlay {
+    position: relative;
+    transition: all 1s;
+}
+
+.overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+}
+.overlay:hover:after {
+    opacity: 0;
+}
 
