@@ -1,6 +1,6 @@
 ---
 title: March 12 — 17
-date: 1901-03-11T14:00:00.000Z
+date: '1901-03-12T01:00:00+10:00'
 description: "**Prayer Week**:\_Daily prayer meetings Monday thru Saturday with the theme\_“The Next Generation”"
 image: /img/freely-prayer.jpg
 ---
