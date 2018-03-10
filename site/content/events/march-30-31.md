@@ -1,6 +1,6 @@
 ---
-title: March 30 / 31
-date: 0001-03-30T13:00:00+10:00
-description: Combined Churches Prayer Vigil @ Auckland Hill
+title: March 30
+date: 1901-03-30T03:00:00.000Z
+description: 'Combined Churches Prayer Vigil @ Auckland Hill 8:30pm to 9:30pm'
 ---
 
