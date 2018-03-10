@@ -1,6 +1,6 @@
 ---
 title: March 12 — 17
-date: '2020-01-01T10:00:00+10:00'
+date: '1901-03-12T10:00:00+10:00'
 description: "**Prayer Week**:\_Daily prayer meetings Monday thru Saturday with the theme\_“The Next Generation”"
 image: /img/freely-prayer.jpg
 ---
