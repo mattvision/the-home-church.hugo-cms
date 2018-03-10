@@ -2,18 +2,22 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ partial "4-up" .Params.intro }}
+{{ partial "songs" .Params.intro }}
 
-<!--
+<div class="pb4">
+  {{ range .Params.songs }}
+    {{ partial "song" . }}
+  {{ end }}
+</div>
+
 <div class="mw7 center">
   <div class="mw6 ph3 mb3">
     <p>{{ .Content }}</p>
   </div>
 </div>
--->
 
-<blockquote class="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
+<!--<blockquote class="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
 	<p class="f4 mb0">{{ .Content }}</p>
-</blockquote>
+</blockquote>-->
 
 {{ end }}
