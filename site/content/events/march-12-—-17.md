@@ -6,4 +6,4 @@ image: /img/freely-prayer.jpg
 ---
 Daily prayer meetings will be held from 6:00pm to 7:00pm Monday to Friday.
 
-Contact \[Jaco](mailto:jaco@thehomechurch.com.au) for further details.
+Contact [Jaco](mailto:jaco@thehomechurch.com.au) for further details.
