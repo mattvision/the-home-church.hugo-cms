@@ -82,7 +82,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image, required: false}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Links, name: links, widget: list, fields: [{label: Song, name: song, widget: string}, {label: Link, name: link, widget: string}]}
+          - {label: Songs, name: songs, widget: list, fields: [{label: Song, name: song, widget: string}, {label: Link, name: link, widget: string}]}
       - file: "site/content/links/_index.md"
         label: "Weblinks Page"
         name: "links"
