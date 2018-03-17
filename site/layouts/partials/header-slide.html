@@ -2,7 +2,7 @@
 <!--<div class="mw7 center ph3">-->
 
 <!--<div style="width: 100%; height: 100%; text-align: center;">-->
-<img id="egg-top" style="position: fixed; z-index: 10; max-width: 50%; max-height: 200px; top: -500px; left: 50%; margin-right: -50%; transform: translate(-50%, 120%);" src="/img/logo-white.png" alt="The Home Church logo">
+<img id="egg-top" style="display: none; position: fixed; z-index: 10; max-width: 50%; max-height: 200px; top: -500px; left: 50%; margin-right: -50%; transform: translate(-50%, 120%);" src="/img/logo-white.png" alt="The Home Church logo">
 <!--</div>-->
 
 <div id="header-slide" class="slider">
@@ -73,6 +73,8 @@
 	$(window).on("scroll", function(){
               amountscrolled()
         });
+
+	eggsTopFadeIn();
 	
     });
 
