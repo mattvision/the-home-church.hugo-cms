@@ -2,7 +2,7 @@
 <div class="mw7 center ph4 pv5">
 
 <div id="gallery" style="display:none;">
-	    {{ range sort .blurbs "image" "desc" }}
+	    {{ range sort .blurbs "desc" }}
 	    <img src="{{ .image }}" alt="{{ .text }}" data-image="{{ .image }}" data-description="{{ .text }}">
 	    {{ end }}
 </div>
