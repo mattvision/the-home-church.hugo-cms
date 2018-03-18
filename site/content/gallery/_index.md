@@ -85,6 +85,7 @@ intro:
     - image: /img/25594123_10211378495878737_7647721814199041688_n.jpg
     - image: /img/IMG_2038.JPG
     - image: /img/IMG_2042.JPG
+    - image: /img/29063643_810019185873552_5555728510217093120_n-1.jpg
   description: >-
     Welcome to our photo spot. Please use the image slider below to view
     pictures from our church meetings, camps and other church outings. We hope
