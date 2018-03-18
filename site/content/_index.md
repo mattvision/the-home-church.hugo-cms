@@ -268,8 +268,8 @@ intro:
     perfection.
 
 
-    &nbsp;&nbsp;&nbsp;&nbsp;For a more detailed description of our beliefs,
-    please [contact one of our pastors](/contact).
+    Please [contact us](/contact) for a more detailed description of our
+    beliefs.
 
 
 
