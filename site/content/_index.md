@@ -242,7 +242,7 @@ intro:
 
     1. The Bible is the Word of God and without error.
 
-    2. There is one God, eternally existing as the Father, Son, and Holy Spirit.
+    2. There is one God, eternally existing in the persons of the Father, Son, and Holy Spirit.
 
     3. God is good and created a perfect world.
 
@@ -265,6 +265,9 @@ intro:
 
     10. There will be a new heavens and a new earth, restored to their original
     perfection.
+
+
+    * For a more detailed description of our beliefs, please [contact one of our pastors](/contact).
 
 
     We look forward to meeting you! For more information on our Sunday meetings,
