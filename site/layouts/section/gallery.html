@@ -4,7 +4,26 @@
 
 {{ partial "4-up" .Params.intro }}
 
-{{ partial "unite-gallery" .Params.intro }}
+{{ range $i, $v := .Params.intro.blurbs }}
+{{ with $v.image }}{{ $.Scratch.Set (printf "image_%d" $i) . }}{{ end }}
+{{ with $v.text }}{{ $.Scratch.Set (printf "text_%d" $i) . }}{{ end }}
+{{ $.Scratch.Set "last_image" $i }}
+{{ end }}
+
+<div class="mw7 center ph4 pv5">
+<div id="gallery" style="display:none;">
+{{ range $num := (seq ($.Scratch.Get "last_image") -1 0) }}
+{{ $src := $.Scratch.Get (printf "image_%d" $num) }}
+{{ $alt := $.Scratch.Get (printf "text_%d" $num) }}
+<img src="{{ $src }}" alt="{{ $alt }}" data-description="{{ $alt }}">
+{{ end }}
+</div>
+</div>
+<script type="text/javascript">
+            $(document).ready(function(){
+                $("#gallery").unitegallery();
+            }); 
+</script>
 
 {{ end }}
 
