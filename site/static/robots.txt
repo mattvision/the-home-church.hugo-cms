@@ -1,2 +1,6 @@
+User-agent: Googlebot
+Disallow: /post/
+Disallow: /downloads/
+
 User-agent: *
-Disallow:
+Allow: /
