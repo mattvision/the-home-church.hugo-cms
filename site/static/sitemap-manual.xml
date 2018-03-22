@@ -27,12 +27,6 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.thehomechurch.com.au/web/viewer.html?file=%2fdownloads%2fSongbook_180310_mobile.pdf</loc>
-  <lastmod>2018-03-21T03:25:36+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.3</priority>
-</url>
-<url>
   <loc>https://www.thehomechurch.com.au/links/</loc>
   <lastmod>2018-03-21T03:25:36+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -44,6 +38,11 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
-
+<url>
+  <loc>https://www.thehomechurch.com.au/web/viewer.html?file=/downloads/Songbook_180310_mobile.pdf#pagemode=bookmarks</loc>
+  <lastmod>2018-03-22T03:25:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.3</priority>
+</url>
 
 </urlset>
