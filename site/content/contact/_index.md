@@ -1,5 +1,6 @@
 ---
 title: Contact
+pagedesc: 'For information on where we’re meeting this week, or if you have any other questions, please feel free to contact one of our pastors – We are a group of Christians seeking to fellowship like the early church…'
 logo: /img/logo-nicefill.png
 contact_entries:
   - heading: Steve Müller

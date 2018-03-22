@@ -1,6 +1,7 @@
 ---
 title: Events
 footnote: '([contact one of our pastors](/contact) for further details)​'
+pagedesc: 'View our upcoming events: We meet Sunday mornings 10:00am – We are a group of Christians seeking to fellowship like the early church…'
 ---
 
 [Steve]: mailto:steve@thehomechurch.com.au "Send email to: steve@thehomechurch.com.au"

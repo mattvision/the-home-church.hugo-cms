@@ -1,5 +1,6 @@
 ---
 title: Photo Gallery
+pagedesc: 'Welcome to our photo spot. Here you can view pictures from our church meetings, camps and other church outings – We are a group of Christians seeking to fellowship like the early church…'
 image: /img/IMG_1673.JPG
 intro:
   blurbs:

@@ -1,5 +1,6 @@
 ---
 title: Links
+pagedesc: 'Links to some of our favourite websites – We are a group of Christians seeking to fellowship like the early church…'
 image: /img/lightoftheworld-stretched.jpg
 intro:
   description: 'Here are some of our favourite websites:'

@@ -1,5 +1,6 @@
 ---
 title: Songs
+pagedesc: 'View our church songbook online or download a printable version – We are a group of Christians seeking to fellowship like the early church…'
 image: /img/27658303_789177011291103_529199334_n.jpg
 intro:
   description: >-
