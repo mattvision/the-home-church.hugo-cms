@@ -26,7 +26,14 @@ See https://github.com/adobe-type-tools/cmap-resources
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="google" content="notranslate">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PDF.js viewer</title>
+    <title>Home Church Digital Songbook</title>
+    
+    <meta name="geo.region" content="AU-QLD" />
+    <meta name="geo.placename" content="Gladstone" />
+    <meta name="geo.position" content="-23.88;151.23" />
+    <meta name="ICBM" content="-23.88, 151.23" />
+
+    <meta name="Description" content="Here are some of the songs we love to praise and worship with. CCLI LICENSE# 531023">
 
 
     <link rel="stylesheet" href="viewer.css">
@@ -43,7 +50,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
   <body tabindex="1" class="loadingInProgress">
     <div id="outerContainer">
-
+    <h1>Home Church Digital Songbook</h1>
       <div id="sidebarContainer">
         <div id="toolbarSidebar">
           <div class="splitToolbarButton toggled">
@@ -53,11 +60,13 @@ See https://github.com/adobe-type-tools/cmap-resources
             <button id="viewOutline" class="toolbarButton" title="Show Document Outline (double-click to expand/collapse all items)" tabindex="3" data-l10n-id="document_outline">
                <span data-l10n-id="document_outline_label">Document Outline</span>
             </button>
-            <button id="viewAttachments" class="toolbarButton" title="Show Attachments" tabindex="4" data-l10n-id="attachments">
+            <button style="display: none;" id="viewAttachments" class="toolbarButton" title="Show Attachments" tabindex="4" data-l10n-id="attachments">
                <span data-l10n-id="attachments_label">Attachments</span>
             </button>
+
           </div>
         </div>
+	<img src="https://www.thehomechurch.com.au/img/logo-nicefill.png" style="max-width: 90%">
         <div id="sidebarContent">
           <div id="thumbnailView">
           </div>
@@ -182,26 +191,27 @@ See https://github.com/adobe-type-tools/cmap-resources
                   <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
                 </button>
 
-                <button id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
+                <button style="display: none;" id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
                   <span data-l10n-id="open_file_label">Open</span>
                 </button>
 
-                <button id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print">
+                <button style="display: none;" id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print">
                   <span data-l10n-id="print_label">Print</span>
                 </button>
 
-                <button id="download" class="toolbarButton download hiddenMediumView" title="Download" tabindex="34" data-l10n-id="download">
+                <button style="display: none;" id="download" class="toolbarButton download hiddenMediumView" title="Download" tabindex="34" data-l10n-id="download">
                   <span data-l10n-id="download_label">Download</span>
                 </button>
-                <a href="#" id="viewBookmark" class="toolbarButton bookmark hiddenSmallView" title="Current view (copy or open in new window)" tabindex="35" data-l10n-id="bookmark">
+                <!--<a href="#" id="viewBookmark" class="toolbarButton bookmark hiddenSmallView" title="Current view (copy or open in new window)" tabindex="35" data-l10n-id="bookmark">
                   <span data-l10n-id="bookmark_label">Current View</span>
-                </a>
+                </a>-->
 
-                <div class="verticalToolbarSeparator hiddenSmallView"></div>
+                <!--<div class="verticalToolbarSeparator hiddenSmallView"></div>-->
 
-                <button id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="36" data-l10n-id="tools">
+                <button style="display: none;" id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="36" data-l10n-id="tools">
                   <span data-l10n-id="tools_label">Tools</span>
                 </button>
+
               </div>
               <div id="toolbarViewerMiddle">
                 <div class="splitToolbarButton">
