@@ -50,7 +50,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
   <body tabindex="1" class="loadingInProgress">
     <div id="outerContainer">
-    <h1>Home Church Digital Songbook</h1>
+    <h1 style="text-align: center;">Home Church Digital Songbook</h1>
       <div id="sidebarContainer">
         <div id="toolbarSidebar">
           <div class="splitToolbarButton toggled">
@@ -171,7 +171,6 @@ See https://github.com/adobe-type-tools/cmap-resources
                 <button id="sidebarToggle" class="toolbarButton" title="Toggle Sidebar" tabindex="11" data-l10n-id="toggle_sidebar">
                   <span data-l10n-id="toggle_sidebar_label">Toggle Sidebar</span>
                 </button>
-		<span class="toolbarField" style="background: white; color: blue;"><strong><em>Home Church Digital Songbook</em></strong></span>
             <a href="/songs/#index" class="toolbarField" style="background: #ff4400; color: #e1e1e1; text-decoration: none;" tabindex="55"><span><strong>&larr; Back</strong></span></a>
                 <div class="toolbarButtonSpacer"></div>
                 <button id="viewFind" class="toolbarButton" title="Find in Document" tabindex="12" data-l10n-id="findbar">
@@ -190,9 +189,6 @@ See https://github.com/adobe-type-tools/cmap-resources
                 <!--<span id="numPages" class="toolbarLabel"></span>-->
               </div>
               <div id="toolbarViewerRight">
-                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="31" data-l10n-id="presentation_mode">
-                  <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
-                </button>
 
                 <button style="display: none;" id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
                   <span data-l10n-id="open_file_label">Open</span>
@@ -209,7 +205,12 @@ See https://github.com/adobe-type-tools/cmap-resources
                   <span data-l10n-id="bookmark_label">Current View</span>
                 </a>-->
 
-                <!--<div class="verticalToolbarSeparator hiddenSmallView"></div>-->
+
+		<span class="toolbarField hiddenLargeView" style="background: white; color: #3366ff;"><strong><em>Home Church Digital Songbook</em></strong></span>
+                <div class="verticalToolbarSeparator hiddenLargeView"></div>
+                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="31" data-l10n-id="presentation_mode">
+                  <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
+                </button>
 
                 <button style="display: none;" id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="36" data-l10n-id="tools">
                   <span data-l10n-id="tools_label">Tools</span>
