@@ -26,6 +26,7 @@
     });
 
     var eggsTop = true;
+    var eggsReady = false;
 
     function amountscrolled(){
 	var headerTop = $("#header-slide").offset().top;
@@ -71,12 +72,15 @@
 	$("#egg-top").css("top", headerTop+"px");
 
 	$(window).on("scroll", function(){
+	    if (eggsReady) {
               amountscrolled()
+	    }
         });
 	setTimeout(function(){
 	     eggsTop = false;
+	     eggsReady = true;
 	     amountscrolled(); 
-	}, 1000);
+	}, 3000);
 
 	
     });
