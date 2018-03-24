@@ -1,6 +1,5 @@
 User-agent: Googlebot
 Disallow: /post/
-Disallow: /downloads/
 
 User-agent: *
 Allow: /
