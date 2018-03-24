@@ -2,7 +2,10 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
+<a name="index" style="position: relative; top: 2em;"></a>
+
 {{ partial "songs" .Params.intro }}
+
 
 <div class="pb4">
   {{ range .Params.songs }}
