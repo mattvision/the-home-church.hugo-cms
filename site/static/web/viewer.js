@@ -4357,7 +4357,7 @@ var PDFSidebar = function () {
       if (this.disableNotification) {
         return;
       }
-      this.l10n.get('toggle_sidebar_notification.title', null, 'Toggle Sidebar (document contains outline/attachments)').then(function (msg) {
+      this.l10n.get('toggle_sidebar_notification.title', null, 'Toggle Index (songs/thumbnails)').then(function (msg) {
         _this.toggleButton.title = msg;
       });
       if (!this.isOpen) {
@@ -4403,7 +4403,7 @@ var PDFSidebar = function () {
       for (view in SidebarView) {
         removeNotification(SidebarView[view]);
       }
-      this.l10n.get('toggle_sidebar.title', null, 'Toggle Sidebar').then(function (msg) {
+      this.l10n.get('toggle_sidebar.title', null, 'Toggle Index Sidebar').then(function (msg) {
         _this2.toggleButton.title = msg;
       });
     }
