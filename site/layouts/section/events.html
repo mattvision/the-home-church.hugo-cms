@@ -22,9 +22,11 @@
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 30).Pages.ByPublishDate }}
+					{{ if (isset .Params "enabled") }}
           <div class="w-50-ns ph1-ns flex">
-            {{ .Render "li"}}
+						{{ .Render "li"}}
           </div>
+					{{ end }}
       {{ end }}
   </ul>
   {{ partial "pagination" . }}
@@ -39,4 +41,3 @@
 </div>
 
 {{ end }}
-
