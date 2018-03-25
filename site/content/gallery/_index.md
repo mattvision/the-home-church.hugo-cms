@@ -1,6 +1,9 @@
 ---
 title: Photo Gallery
-pagedesc: 'Welcome to our photo spot. Here you can view pictures from our church meetings, camps and other church outings – We are a group of Christians seeking to fellowship like the early church…'
+pagedesc: >-
+  Welcome to our photo spot. Here you can view pictures from our church
+  meetings, camps and other church outings – We are a group of Christians
+  seeking to fellowship like the early church…
 image: /img/IMG_1673.JPG
 intro:
   blurbs:
@@ -86,7 +89,31 @@ intro:
     - image: /img/25594123_10211378495878737_7647721814199041688_n.jpg
     - image: /img/IMG_2038.JPG
     - image: /img/IMG_2042.JPG
+    - image: /img/28958950_196636937765055_7332864385524404092_n.jpg
+    - image: /img/28958303_196637064431709_6701860781180408218_n.jpg
+    - image: /img/28959172_196636921098390_2503079360653776950_n.jpg
+    - image: /img/29063618_196636914431724_3566580752042889869_n.jpg
     - image: /img/29063643_810019185873552_5555728510217093120_n-1.jpg
+    - image: /img/29101033_196636384431777_4817634830526273182_n.jpg
+    - image: /img/29133061_196636941098388_6932283755225076841_n.jpg
+    - image: /img/29386929_199962067432542_609476333172213655_n.jpg
+    - image: /img/29356416_199962064099209_5758277347799323672_n.jpg
+    - image: /img/29597776_203244360437646_2837373472378976448_n.jpg
+    - image: /img/29570796_203244410437641_3177968034796980169_n.jpg
+    - image: /img/29542894_203244340437648_8935712506774414842_n.jpg
+    - image: /img/29572373_203244337104315_2315597044985911991_n.jpg
+    - image: /img/29570902_203244443770971_1128580131421877451_n.jpg
+    - image: /img/29570373_203244777104271_6058829188972620064_n.jpg
+    - image: /img/29512200_203244480437634_7890893645909997137_n.jpg
+    - image: /img/29542749_203244703770945_7528463561505428110_n.jpg
+    - image: /img/29513064_203244670437615_7223318465647162214_n.jpg
+    - image: /img/29512230_203244733770942_4503077670289147255_n.jpg
+    - image: /img/29571165_203244713770944_1981063860872282490_n.jpg
+    - image: /img/29511725_203244643770951_7750318582094964831_n.jpg
+    - image: /img/29541187_203244600437622_462102045704850355_n.jpg
+    - image: /img/29572324_203244590437623_7062464034488322441_n.jpg
+    - image: /img/29511251_203244523770963_8672668811003290042_n.jpg
+    - image: /img/29512214_203244560437626_4482425150877949788_n.jpg
   description: >-
     Welcome to our photo spot. Please use the image slider below to view
     pictures from our church meetings, camps and other church outings. We hope
