@@ -156,7 +156,8 @@
   position: relative;
   top: 15px !important;
   height: 0px !important;
-/*
+}
+
+.j-navigate {
   display: none !important;
-*/
 }
