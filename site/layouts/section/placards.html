@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="ph3 bg-off-white">
+        <div class="center mw11 pv3">
+
+                {{ .Content }}
+
+<script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css">
+<ul class="juicer-feed" data-feed-id="gladstonechurches"></ul>
+<script>
+$( document ).ready(function() {
+setTimeout(function(){
+  $("h1 >a").remove();
+
+  $("ul").find("[data-id='']").remove();
+
+  $("div.j-poster").remove();
+}, 3000);
+});
+</script>
+
+        </div>
+</div>
+
+
+
+
+{{ end }}
