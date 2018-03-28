@@ -10,14 +10,25 @@
 <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css">
 <ul class="juicer-feed" data-feed-id="gladstonechurches"></ul>
 <script>
-$( document ).ready(function() {
-setTimeout(function(){
+function cleanFeeds() {
   $("h1 >a").fadeOut();
 
   $("ul").find("[data-id='']").remove();
+  $("ul").find("[data-id='215482918']").remove();
+  $("ul").find("[data-id='215482913']").remove();
+  $("ul").find("[data-id='215482909']").remove();
+  $("ul").find("[data-id='215482917']").remove();
+  $("ul").find("[data-id='215482908']").remove();
+  $("ul").find("[data-id='215482899']").remove();
 
-  $("div.j-poster").remove();
-}, 3000);
+ // $("div.j-poster").remove();
+
+}
+$( window ).on( "orientationchange", function( event ) {
+  cleanFeeds;
+});
+$( document ).ready(function(){
+setTimeout(cleanFeeds, 3000);
 });
 </script>
 

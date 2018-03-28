@@ -103,3 +103,5 @@
 		border-bottom-right-radius: 0;
 }
 }
+
+.feed-item {        border-radius: var(--border-radius); }

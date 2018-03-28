@@ -142,3 +142,21 @@
     opacity: 0;
 }
 
+.feed-item img,
+.j-overlay-content img {
+  border-radius: 0;
+}
+
+.j-overlay-content {
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+
+.j-close {
+  position: relative;
+  top: 15px !important;
+  height: 0px !important;
+/*
+  display: none !important;
+*/
+}
