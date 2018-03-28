@@ -25,7 +25,9 @@ function cleanFeeds() {
 
 }
 $( window ).on( "orientationchange", function( event ) {
-  cleanFeeds;
+$( document ).ready(function(){
+setTimeout(cleanFeeds, 1000);
+});
 });
 $( document ).ready(function(){
 setTimeout(cleanFeeds, 3000);
