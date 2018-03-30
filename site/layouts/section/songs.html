@@ -8,8 +8,13 @@
 
 
 <div class="pb4">
+  {{ $.Scratch.Set "songbook" .Params.pdf }}
   {{ range .Params.songs }}
-    {{ partial "song" . }}
+    {{ $.Scratch.Set "songbookpage" .page }}
+    {{ $.Scratch.Add "songbookpage" 1 }}
+
+    <a name="item{{ .page }}"></a>
+    {{ partial "song" (dict "pdf" ($.Scratch.Get "songbook") "page" ($.Scratch.Get "songbookpage") "song" .song) }}
   {{ end }}
 </div>
 
