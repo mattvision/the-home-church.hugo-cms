@@ -25,6 +25,19 @@
 	showNav : true // Set to false to hide navigation arrows.
     });
 
+    $("#header-slide").on( "swipeleft", function( event ) {
+	$(".sssprev").click();
+    });
+    $("#header-slide").on( "swiperight", function( event ) {
+	$(".sssnext").click();
+    });
+    $("#egg-top").on( "swipeleft", function( event ) {
+	$(".sssprev").click();
+    });
+    $("#egg-top").on( "swiperight", function( event ) {
+	$(".sssnext").click();
+    });
+
     var eggsTop = true;
     var eggsReady = false;
 
