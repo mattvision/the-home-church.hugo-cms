@@ -191,4 +191,11 @@
     #back-to-top {
 	display: none;
     }
+    .j-close {
+	display: none !important;
+    }
+}
+
+body.placard-open {
+    overflow: hidden;
 }
