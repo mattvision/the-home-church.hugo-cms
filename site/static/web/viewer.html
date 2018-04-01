@@ -418,8 +418,9 @@ function checkPageNumberChanged() {
         pageNumberValue = pageNumber.value;
 
 	$("#backButton").prop("href", "/songs/#item"+pageNumberValue);
+        $('#pageNumber').prop({type:"number"});
 
-        setTimeout(checkPageNumberChanged, 300);
+	setTimeout(checkPageNumberChanged, 300);
 
     } else {
         setTimeout(checkPageNumberChanged, 300);
