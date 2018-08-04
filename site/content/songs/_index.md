@@ -7,10 +7,9 @@ image: /img/27658303_789177011291103_529199334_n.jpg
 intro:
   description: >-
     You can now view our church songbook online or
-    [download](/downloads/Songbook_180310.pdf) a printable version. (Last
-    updated 10th March 2018)
+    [download](/downloads/songbook1805.pdf) a printable version. (Updated May 2018)
   heading: Digital Song Book
-pdf: /downloads/Songbook_180310_mobile.pdf
+pdf: /downloads/songbook1805.pdf
 songs:
   - song: 'Abba, Father'
     page: 71
@@ -78,6 +77,8 @@ songs:
     page: 19
   - song: I Surrender All
     page: 6
+  - song: It Is Well
+    page: 76
   - song: 'Jesus, All For Jesus'
     page: 28
   - song: 'Jesus, Lover Of My Soul'
@@ -96,6 +97,8 @@ songs:
     page: 36
   - song: Mighty To Save
     page: 12
+  - song: New Wine
+    page: 78
   - song: Oceans
     page: 24
   - song: 'O Come, All Ye Faithful'
@@ -156,6 +159,8 @@ songs:
     page: 26
   - song: Who Can Know? (I Stand In Awe)
     page: 18
+  - song: Who You Say I Am
+    page: 77
   - song: You Are My All In All
     page: 40
   - song: You Are My World
