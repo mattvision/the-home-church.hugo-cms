@@ -1,6 +1,16 @@
 ---
 title: Markets
 pagedesc: 'Come visit our stall at the Rotary Kmart Markets, held in the Kmart carpark on the third Sunday of every month (January through November)'
+image1: /img/markets_01.jpg
+image2: /img/markets_02.jpg
+image3: /img/markets_03.jpg
+image4: /img/markets_04.jpg
+image5: /img/markets_05.jpg
+image6: /img/markets_06.jpg
+image7: /img/markets_07.jpg
+image8: /img/markets_08.jpg
+image9: /img/markets_09.jpg
+imagefooter: /img/markets_footer.png
 logo: /img/logo-nicefill.png
 contact_entries:
   - heading: Steve Müller

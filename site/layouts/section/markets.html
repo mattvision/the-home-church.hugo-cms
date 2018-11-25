@@ -3,11 +3,23 @@
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="Home Church - Markets" class="db w8 center pv4" style="position: relative; left: 5%; min-width: 200px; max-width: 55%;">
+		<img src="{{ .Params.image1 }}" alt="Home Church - Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
 		<div style="background: #875628; width: 30%; max-width: 200px; height: 2px; position: relative; top:-1em;left: 50%; margin-right: -50%; transform: translate(-50%, -50%);"></div>
 		<h1 style="position: relative; top:-.5em; text-align:center; color:#875628; font-size:1.6em;">Markets</h1>
 
 		{{ .Content }}
+
+		<img src="{{ .Params.image2 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image3 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image4 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image5 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image6 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image7 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image8 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.image9 }}" alt="Home Church - T-Rex at the Markets" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<img src="{{ .Params.imagefooter }}" alt="Home Church - Fallen Kingdom" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+		<p>If you have any questions, please feel free to contact one of our pastors:</p>
+
 
 		<div class="flex-ns mb3">
 	        	{{ range .Params.contact_entries }}
@@ -21,6 +33,8 @@
 <!--
 		{{ partial "contact-form" . }}
 -->
+	<img src="{{ .Params.markets_footer }}" alt="Home Church - Fallen Kingdom" class="db w8 center pv4" style="min-width: 200px; max-width: 100%;">
+
 	</div>
 </div>
 
