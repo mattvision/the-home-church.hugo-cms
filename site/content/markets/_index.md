@@ -34,5 +34,3 @@ Come visit our stall at the Rotary Kmart Markets, held in the Kmart carpark on t
   * [Is there any hope beyond heartache and pain?](https://creation.com/the-lost-path-to-the-roman-road "The Lost Path to the Roman Road")
 
 <br>See you there!
-
-If you have any questions, please feel free to contact one of our pastors:
