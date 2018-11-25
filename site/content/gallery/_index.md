@@ -114,10 +114,18 @@ intro:
     - image: /img/29572324_203244590437623_7062464034488322441_n.jpg
     - image: /img/29511251_203244523770963_8672668811003290042_n.jpg
     - image: /img/29512214_203244560437626_4482425150877949788_n.jpg
+    - image: /img/IMG_4227.JPG
+    - image: /img/IMG_4226.JPG
+    - image: /img/IMG_4222.JPG
+    - image: /img/IMG_4220.JPG
+    - image: /img/IMG_4215.JPG
+    - image: /img/IMG_4214.JPG
+    - image: /img/IMG_4212.JPG
+    - image: /img/IMG_4206.JPG
+
   description: >-
     Welcome to our photo spot. Please use the image slider below to view
     pictures from our church meetings, camps and other church outings. We hope
     to see your picture here too!
   heading: Recent snaps
 ---
-
