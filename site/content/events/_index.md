@@ -1,7 +1,7 @@
 ---
 title: Upcoming Events
 image: /img/events-banner.jpg
-footnote: '([contact one of our pastors](/contact) for further details)​'
+footnote: '[Contact one of our pastors](/contact) for further details.'
 pagedesc: 'View our upcoming events: We meet Sunday mornings 10:00am – We are a group of Christians seeking to fellowship like the early church…'
 ---
 
@@ -11,10 +11,8 @@ pagedesc: 'View our upcoming events: We meet Sunday mornings 10:00am – We are 
 
 **Regular Meetings**
 
-We meet Sunday mornings 10:00am ([contact Steve][Steve] for details of where we’re meeting this Sunday)
+We meet Sunday mornings 10:00am<br>([contact Steve][Steve] for details of where we’re meeting this Sunday)
 
-We meet for Bible study on Wednesday nights 6:30pm ([contact Jaco][Jaco] for more details)
+We meet for Bible study on Thursday nights 6:30pm<br>([contact Jaco][Jaco] for more details)
 
-Our youth group meets fortnightly on Saturday evenings, 5:30pm — 8:30pm ([contact Jaco][Jaco] for details)
-
-Ladies’ Bible Study is on Monday mornings (contact Marietjie [<span class="nowrap">0401 657 855</span>](tel:+61401657855) or Belinda [<span class="nowrap">0433 655 775</span>](tel:+61433655775))
+Our youth group meets fortnightly on Saturday evenings, 5:30pm — 8:30pm<br>([contact Jaco][Jaco] for details)
