@@ -188,7 +188,7 @@ intro:
 
 
     We meet at various locations around Gladstone, Calliope and <span
-    class="nowrap">Tannum Sands</span>, and our Sunday meetings typically
+    class="nowrap">Tannum Sands</span> (in Central Queensland, Australia), and our Sunday meetings typically
     include:
 
 
